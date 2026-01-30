@@ -6,7 +6,7 @@ Zaimplementuj logikę gry typu **Dobble** w PHP (wersja 7.4 lub wyższa).
 Każda karta:
 - zawiera **8 symboli**
 - każde dwie karty mają **dokładnie 1 wspólny symbol**
-- w talii jest **57 kart**
+- w talii jest maksymalna możliwa liczba kart dla 8 symboli
 
 ---
 
@@ -31,7 +31,7 @@ Nie dostarczamy gotowej implementacji — sam decydujesz:
 
 ## ⚙️ Zakres implementacji
 Musisz zaimplementować:
-- generator kart (57 kart, 8 symboli)  
+- generator kart
 - sprawdzanie wspólnego symbolu  
 - logikę gry (losowanie kart, brak powtórzeń)  
 - prosty, użyteczny **interfejs użytkownika** w HTML (przyciski / tabelki). Widok nie musi być piękny, ale powinien być czytelny i możliwy do używania przez użytkownika.

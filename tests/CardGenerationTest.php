@@ -2,9 +2,9 @@
 
 class CardGenerationTest
 {
-    public function test_deck_contains_57_cards()
+    public function test_deck_contains_max_cards_limit_for_8_symbols_per_each()
     {
-        // Sprawdza, że talia zawiera dokładnie 57 kart
+        // Sprawdza, że talia zawiera nie więcej niż maksymalną liczbę kart dla 8 symboli na kartę
     }
 
     public function test_each_card_has_8_symbols()

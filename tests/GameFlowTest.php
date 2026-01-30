@@ -16,4 +16,10 @@ class GameFlowTest
     {
         // Sprawdza, że gra kończy się po wykorzystaniu wszystkich kart
     }
+
+    public function test_total_time_spent_is_tracked()
+    {
+        // [ DODATKOWY ]
+        // Sprawdza całkowity czas gry (od rozpoczęcia do zakończenia)
+    }
 }
